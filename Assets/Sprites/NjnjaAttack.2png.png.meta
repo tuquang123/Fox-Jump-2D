@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: ebd268602e6eb7d4c9e052ff56609c01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4229438992121026742
+    second: NjnjaAttack.2png_0
+  - first:
+      213: 7859651216718796893
+    second: NjnjaAttack.2png_1
+  - first:
+      213: 3906873439344263745
+    second: NjnjaAttack.2png_2
+  - first:
+      213: -7371867311490998128
+    second: NjnjaAttack.2png_3
+  - first:
+      213: -7294520130796867634
+    second: NjnjaAttack.2png_5
+  - first:
+      213: -1904299756515995761
+    second: NjnjaAttack.2png_6
+  - first:
+      213: 986872857396867556
+    second: NjnjaAttack.2png_7
+  - first:
+      213: -6467162051973090869
+    second: NjnjaAttack.2png_8
+  - first:
+      213: 627017721848712477
+    second: NjnjaAttack.2png_9
+  - first:
+      213: -21732750745612226
+    second: NjnjaAttack.2png_10
+  - first:
+      213: -116896569928704559
+    second: NjnjaAttack.2png_11
+  - first:
+      213: -3088779654994788382
+    second: NjnjaAttack.2png_12
+  - first:
+      213: -3320085422724701
+    second: NjnjaAttack.2png_13
+  - first:
+      213: 9188236968179220394
+    second: NjnjaAttack.2png_14
+  - first:
+      213: 728907952444121141
+    second: NjnjaAttack.2png_15
+  - first:
+      213: 7157398802690319728
+    second: NjnjaAttack.2png_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 2
+    wrapV: 2
+    wrapW: 2
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 431
+        width: 130
+        height: 120
+      alignment: 9
+      pivot: {x: 0.7017821, y: 0.585878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b85f84da5cf1ba30800000000000000
+      internalID: 4229438992121026742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 425
+        width: 131
+        height: 122
+      alignment: 9
+      pivot: {x: 0.67878747, y: 0.5844704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d589dfea327131d60800000000000000
+      internalID: 7859651216718796893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 440
+        width: 126
+        height: 106
+      alignment: 9
+      pivot: {x: 0.7453647, y: 0.5088386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142068e81b0083630800000000000000
+      internalID: 3906873439344263745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 434
+        width: 187
+        height: 111
+      alignment: 9
+      pivot: {x: 0.2194475, y: 0.53376067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090e34fecbdd1b990800000000000000
+      internalID: -7371867311490998128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_5
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 434
+        width: 156
+        height: 113
+      alignment: 9
+      pivot: {x: 0.34866217, y: 0.5435259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfaaecc698a4ca90800000000000000
+      internalID: -7294520130796867634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_6
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 422
+        width: 156
+        height: 123
+      alignment: 9
+      pivot: {x: 0.37388495, y: 0.5879725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f400bf5719295e0800000000000000
+      internalID: -1904299756515995761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_7
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 431
+        width: 143
+        height: 106
+      alignment: 9
+      pivot: {x: 0.6004135, y: 0.5123147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e17d9792a312bd00800000000000000
+      internalID: 986872857396867556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_8
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 443
+        width: 144
+        height: 106
+      alignment: 9
+      pivot: {x: 0.78101945, y: 0.5246297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1f143d0660046a0800000000000000
+      internalID: -6467162051973090869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_9
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 437
+        width: 128
+        height: 104
+      alignment: 9
+      pivot: {x: 0.6019831, y: 0.51255155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dcaa2cb4d93b800800000000000000
+      internalID: 627017721848712477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_10
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 425
+        width: 117
+        height: 126
+      alignment: 9
+      pivot: {x: 0.7357668, y: 0.6094629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30d0d7ad2ac2bff0800000000000000
+      internalID: -21732750745612226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 63
+        width: 93
+        height: 118
+      alignment: 9
+      pivot: {x: 0.6519632, y: 0.52964026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd10f16033b06ef0800000000000000
+      internalID: -116896569928704559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 68
+        width: 132
+        height: 104
+      alignment: 9
+      pivot: {x: 0.29804647, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eff492d4437225d0800000000000000
+      internalID: -3088779654994788382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 68
+        width: 134
+        height: 104
+      alignment: 9
+      pivot: {x: 0.28748697, y: 0.52635884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a921cf566434fff0800000000000000
+      internalID: -3320085422724701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_14
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 62
+        width: 143
+        height: 117
+      alignment: 9
+      pivot: {x: 0.2902034, y: 0.57811624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf3f6857dc238f70800000000000000
+      internalID: 9188236968179220394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 68
+        width: 166
+        height: 111
+      alignment: 9
+      pivot: {x: 0.26147276, y: 0.55764204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530a36bbbe99d1a00800000000000000
+      internalID: 728907952444121141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NjnjaAttack.2png_16
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 58
+        width: 179
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075a92e1a40345360800000000000000
+      internalID: 7157398802690319728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NjnjaAttack.2png_7: 986872857396867556
+      NjnjaAttack.2png_5: -7294520130796867634
+      NjnjaAttack.2png_16: 7157398802690319728
+      NjnjaAttack.2png_10: -21732750745612226
+      NjnjaAttack.2png_1: 7859651216718796893
+      NjnjaAttack.2png_6: -1904299756515995761
+      NjnjaAttack.2png_14: 9188236968179220394
+      NjnjaAttack.2png_2: 3906873439344263745
+      NjnjaAttack.2png_3: -7371867311490998128
+      NjnjaAttack.2png_0: 4229438992121026742
+      NjnjaAttack.2png_13: -3320085422724701
+      NjnjaAttack.2png_8: -6467162051973090869
+      NjnjaAttack.2png_9: 627017721848712477
+      NjnjaAttack.2png_15: 728907952444121141
+      NjnjaAttack.2png_11: -116896569928704559
+      NjnjaAttack.2png_12: -3088779654994788382
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
