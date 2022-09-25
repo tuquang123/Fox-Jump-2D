@@ -10,16 +10,13 @@ public class Player : MonoBehaviour
 {
     #region Variable
     [Header("1-OBJECT")]
-
-    //[SerializeField] private string SceneName;
     public Joystick joystick; //joystick 
     [Space]
     public Rigidbody2D rb;
     [HideInInspector] public Animator anim;
 
     private BoxCollider2D Collider;
-    private float naturalGravity;
-    public enum State { idle, running, jumping, falling, hurt, climb, attacking, dashing }
+    public enum State { idle, running, jumping, falling, hurt }
     public State state = State.idle;
     
 
@@ -53,7 +50,6 @@ public class Player : MonoBehaviour
     private void Start()
     {
         ManagerUI.perm.healthAmount.text = ManagerUI.perm.health.ToString();
-        naturalGravity = rb.gravityScale;
     }
     private void Update()
     {
@@ -191,21 +187,9 @@ public class Player : MonoBehaviour
     private void Movement() //Move
     {
         hDirection = CrossPlatformInputManager.GetAxis("Horizontal");
+
         rb.velocity = new Vector2(hDirection*speed, rb.velocity.y);
-        /*float hDirection;
-        rb.velocity = new Vector2(hDirection * speed, rb.velocity.y);
-        if (joystick.Horizontal >= .2f)
-        {
-            hDirection = speed;
-        }
-        else if (joystick.Horizontal <= -.2f)
-        {
-            hDirection = -speed;
-        }
-        else
-        {
-            hDirection = 0f;
-        }*/
+        
         //Moving Left
         if (hDirection < 0 && !m_FacingRight)
         {
@@ -231,9 +215,7 @@ public class Player : MonoBehaviour
                 Jump();
               
             } 
-        }
-       
-        
+        }  
     }
     private void Jumpx2x()
     {
@@ -253,12 +235,7 @@ public class Player : MonoBehaviour
     //Animation 
     private void AnimationState()
     {
-        
-        if (state == State.climb)
-        {
-
-        }
-        else if (state == State.jumping)
+       if (state == State.jumping)
         {
             if(rb.velocity.y < .1f)
             {
