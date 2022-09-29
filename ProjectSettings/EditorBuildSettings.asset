@@ -16,19 +16,7 @@ EditorBuildSettings:
     guid: aa0b570754da4e8449c8ef921be23611
   - enabled: 1
     path: Assets/Scenes/ScenePlay/Lv2.unity
-    guid: 977f8681b95f48c4d979262dec5042bf
-  - enabled: 1
-    path: Assets/Scenes/ScenePlay/Lv3.unity
-    guid: 7492b57219fd1ec46ba30a64b13b74ae
-  - enabled: 1
-    path: Assets/Scenes/ScenePlay/Lv4.unity
-    guid: 2af53352192be4144a6a4b095e2d64ac
-  - enabled: 1
-    path: Assets/Scenes/ScenePlay/Lv5.unity
-    guid: 9eb3f9896636b0342a5331cb1e6690cd
-  - enabled: 0
-    path: Assets/Scenes/Lv6.unity
-    guid: e87076de11847cc42ac6807f06405d12
+    guid: e0a7585588f909d44ac9afc037183613
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

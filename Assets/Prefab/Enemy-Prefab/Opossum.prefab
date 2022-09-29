@@ -31,8 +31,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6587758595860572114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.88, y: 12.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 38.3208, y: 12.7465, z: 0}
+  m_LocalScale: {x: 1.34288, y: 1.2665145, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -119,7 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 736095e04d3057648a727a2a9a82552b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gold: {fileID: 4370705103807138293, guid: ae9a6127eae85bd4ebeba96cb96c1c6d, type: 3}
   death: {fileID: 0}
 --- !u!82 &6587758595860571945
 AudioSource:

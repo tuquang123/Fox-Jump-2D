@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         Collider = GetComponent<BoxCollider2D>();
         footstep = GetComponent<AudioSource>();
+        Application.targetFrameRate = 90;
     }
     private void Start()
     {
@@ -62,10 +63,10 @@ public class Player : MonoBehaviour
     }
     private IEnumerator ResetPower()// wait 10s return entry
     {
-        yield return new WaitForSeconds(10);
-        jumpForce = 28;
-        speed = 3.3f;
-        GetComponent<SpriteRenderer>().color = Color.white;
+        yield return new WaitForSeconds(20);
+        jumpForce-=8;
+        //speed = 3.3f;
+        //GetComponent<SpriteRenderer>().color = Color.white;
     }
 
     #region TOUCH
@@ -92,9 +93,9 @@ public class Player : MonoBehaviour
         if (collison.tag == "Acorn")
         {
             Destroy(collison.gameObject);
-            jumpForce = 33;
-            speed = 4.5f;
-            GetComponent<SpriteRenderer>().color = Color.red;
+            jumpForce += 8;
+            //speed = 1f;
+            //GetComponent<SpriteRenderer>().color = Color.red;
             StartCoroutine(ResetPower());
         }
     }
@@ -173,7 +174,7 @@ public class Player : MonoBehaviour
     private void Death()
     {
         ManagerUI.perm.Reset();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     private void Flip()
     {
@@ -184,6 +185,8 @@ public class Player : MonoBehaviour
     }
     #region Move
     [HideInInspector] public float hDirection;
+    private bool Jumpx2;
+
     private void Movement() //Move
     {
         hDirection = CrossPlatformInputManager.GetAxis("Horizontal");
@@ -205,21 +208,43 @@ public class Player : MonoBehaviour
             if (Collider.IsTouchingLayers(ground))
             {
                 Jump();
+                Jumpx2 = true;
+            }
+            else
+            {
+                //Jumpx2
+                if (Jumpx2)
+                {
+                    Jumpx2 = false;
+                    rb.velocity = new Vector2(rb.velocity.x, 0);
+                    Jumpx2x();
+                }
             }
         }
 
         if (Input.GetButtonDown("Jump"))
         {
+            
             if (Collider.IsTouchingLayers(ground))
             {
                 Jump();
-              
-            } 
+                Jumpx2 = true;
+            }
+            else
+            {
+                //Jumpx2
+                if (Jumpx2)
+                {
+                    Jumpx2 = false;
+                    rb.velocity = new Vector2(rb.velocity.x, 0);
+                    Jumpx2x();
+                }
+            }
         }  
     }
     private void Jumpx2x()
     {
-        rb.velocity = new Vector2(rb.velocity.x, 21f);
+        rb.velocity = new Vector2(rb.velocity.x, 18f);
         state = State.jumping;
     }
 

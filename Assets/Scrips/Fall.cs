@@ -18,6 +18,6 @@ public class Fall : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         ManagerUI.perm.Reset();
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
