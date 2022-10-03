@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
 {
     #region Variable
     [Header("1-OBJECT")]
-    public Joystick joystick; //joystick 
+    public Joystick joystick; //joystick
+    public bool x2Jump;
     [Space]
     public Rigidbody2D rb;
     [HideInInspector] public Animator anim;
@@ -36,8 +37,8 @@ public class Player : MonoBehaviour
     [SerializeField] private AudioSource death;
     [SerializeField] private AudioSource up;
     [SerializeField] private AudioSource Hurt;
-    private bool m_FacingRight;
 
+    private bool m_FacingRight;
     #endregion //bien khoi tao //bien khoi tao
 
     private void Awake()
@@ -46,7 +47,9 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         Collider = GetComponent<BoxCollider2D>();
         footstep = GetComponent<AudioSource>();
-        Application.targetFrameRate = 90;
+
+        Application.targetFrameRate = Screen.currentResolution.refreshRate;
+        //Application.targetFrameRate = 90;
     }
     private void Start()
     {
@@ -63,10 +66,10 @@ public class Player : MonoBehaviour
     }
     private IEnumerator ResetPower()// wait 10s return entry
     {
-        yield return new WaitForSeconds(20);
-        jumpForce-=8;
+        yield return new WaitForSeconds(10);
+        jumpForce-=3;
         //speed = 3.3f;
-        //GetComponent<SpriteRenderer>().color = Color.white;
+        GetComponent<SpriteRenderer>().color = Color.white;
     }
 
     #region TOUCH
@@ -93,9 +96,9 @@ public class Player : MonoBehaviour
         if (collison.tag == "Acorn")
         {
             Destroy(collison.gameObject);
-            jumpForce += 8;
+            jumpForce += 3;
             //speed = 1f;
-            //GetComponent<SpriteRenderer>().color = Color.red;
+            GetComponent<SpriteRenderer>().color = Color.red;
             StartCoroutine(ResetPower());
         }
     }
@@ -213,7 +216,7 @@ public class Player : MonoBehaviour
             else
             {
                 //Jumpx2
-                if (Jumpx2)
+                if (Jumpx2 && x2Jump)
                 {
                     Jumpx2 = false;
                     rb.velocity = new Vector2(rb.velocity.x, 0);
@@ -233,7 +236,7 @@ public class Player : MonoBehaviour
             else
             {
                 //Jumpx2
-                if (Jumpx2)
+                if (Jumpx2 && x2Jump)
                 {
                     Jumpx2 = false;
                     rb.velocity = new Vector2(rb.velocity.x, 0);

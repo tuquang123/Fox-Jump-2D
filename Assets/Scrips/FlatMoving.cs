@@ -13,7 +13,7 @@ public class FlatMoving : MonoBehaviour
     }
     void Update()
     {
-        Move.x += speed;
+        Move.x += speed*Time.deltaTime;
         this.transform.position = Move;
 
     }

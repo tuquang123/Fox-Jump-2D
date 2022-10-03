@@ -11,7 +11,7 @@ public class PlayerTeleport : MonoBehaviour
 
     void Update()
     {
-        if (CrossPlatformInputManager.GetButtonDown("Tele"))
+        if (CrossPlatformInputManager.GetButtonDown("Tele") || Input.GetKeyDown(KeyCode.Space))
         {
             if(currentTeleporter != null)
             {
