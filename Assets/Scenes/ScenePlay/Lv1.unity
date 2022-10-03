@@ -21300,7 +21300,7 @@ PrefabInstance:
     - target: {fileID: 2779741231873613959, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3565354
+      value: 1.3566084
       objectReference: {fileID: 0}
     - target: {fileID: 2779741231873613959, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
@@ -24383,16 +24383,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7000571253422187048, guid: 40d7baeb328230645853125275517408,
-        type: 3}
-      propertyPath: joystick
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7000571253422187048, guid: 40d7baeb328230645853125275517408,
-        type: 3}
-      propertyPath: jumpForce
-      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7000571253422187051, guid: 40d7baeb328230645853125275517408,
         type: 3}

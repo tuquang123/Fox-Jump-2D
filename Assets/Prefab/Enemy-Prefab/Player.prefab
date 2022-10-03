@@ -61,7 +61,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   speed: 10
-  jumpForce: 28
+  jumpForce: 20
   footstep: {fileID: 615702967}
   jump: {fileID: 710256147266370021}
   death: {fileID: 6826704675042991872}
