@@ -276,4 +276,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125010ea0091459498b64d4f70dea99c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeDestroy: 4
+  timeDestroy: 10
