@@ -48,7 +48,6 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -120,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 736095e04d3057648a727a2a9a82552b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  death: {fileID: 0}
 --- !u!82 &2513893767295867503
 AudioSource:
   m_ObjectHideFlags: 0
@@ -229,18 +229,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09701729, y: -0.20758533}
+  m_Offset: {x: 0.15069962, y: -0.29599988}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5416666, y: 1.2916666}
+    oldSize: {x: 1.85, y: 1.55}
     newSize: {x: 2.5714285, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2126808, y: 0.8316593}
+  m_Size: {x: 1.4084549, y: 1.0084884}
   m_EdgeRadius: 0
 --- !u!50 &2513893767295867537
 Rigidbody2D:
