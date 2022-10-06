@@ -8,6 +8,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour
 {
+    public GameObject fxSmoke;
     #region Variable
     [Header("1-OBJECT")]
     public Joystick joystick; //joystick
@@ -206,7 +207,7 @@ public class Player : MonoBehaviour
         {
             Flip();
         }
-        if (CrossPlatformInputManager.GetButtonDown("Jump"))
+        if (CrossPlatformInputManager.GetButton("Jump"))
         {
             if (Collider.IsTouchingLayers(ground))
             {
@@ -225,7 +226,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButton("Jump"))
         {
             
             if (Collider.IsTouchingLayers(ground))
@@ -258,6 +259,7 @@ public class Player : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         state = State.jumping;
+        Instantiate(fxSmoke, transform.position, Quaternion.identity);
     }
     #region Animation
     //Animation 
