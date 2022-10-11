@@ -9805,6 +9805,11 @@ PrefabInstance:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 3743682805952673236}
+    - target: {fileID: 2779741231873613944, guid: 92f693ade421afe499e25bf0a089e449,
+        type: 3}
+      propertyPath: orthographic size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2779741231873613947, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
       propertyPath: m_Name
@@ -23010,12 +23015,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 11.791719, y: 2.485191}
-      - {x: -37.192127, y: 2.231211}
-      - {x: -36.716595, y: -5.605959}
-      - {x: 40.371006, y: -5.480094}
-      - {x: 40.92431, y: -2.4108548}
-      - {x: 40.65198, y: 2.4337952}
+    - - {x: 12.589678, y: 3.720743}
+      - {x: -37.192127, y: 3.407276}
+      - {x: -36.585903, y: -4.647437}
+      - {x: 40.63238, y: -4.521572}
+      - {x: 40.793625, y: -2.4108548}
+      - {x: 40.49239, y: 3.3442013}
 --- !u!483693784 &3743682805952673237
 TilemapRenderer:
   m_ObjectHideFlags: 0
