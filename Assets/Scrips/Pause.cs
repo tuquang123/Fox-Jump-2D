@@ -28,7 +28,7 @@ public class Pause : MonoBehaviour
     {
         Time.timeScale = 1f;
         ManagerUI.perm.Reset();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
     
 }
